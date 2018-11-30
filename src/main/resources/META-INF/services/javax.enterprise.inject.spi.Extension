@@ -1,0 +1,4 @@
+//extensions.example.SimpleProcessAnnotatedTypeTest
+extensions.example.MyAnnotationExtension
+extensions.example.IntegrateMyBeanExtension
+//extensions.EventsContainer
