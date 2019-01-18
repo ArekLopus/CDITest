@@ -70,10 +70,10 @@ public class ConcurrencyServlet extends HttpServlet {
 		String param = request.getParameter("type");
 		if(param == null) {
 			out.println("Pick a type, cdi: ?type=cdi-test ?type=cdi-sync ?type=cdi-lock");
-			out.println("<br/><br/>Pick a type, ejb singleyon: ?type=ejb-sin-test ?type=ejb-sin-read ?type=ejb-sin-write");
-			out.println("<br/>Pick a type, ejb singleyon bmc: ?type=ejb-sin-bmc-test ?type=ejb-sin-bmc-read ?type=ejb-sin-bmc-write");
+			out.println("<br/><br/>Pick a type, ejb singleton: ?type=ejb-sin-test ?type=ejb-sin-read ?type=ejb-sin-write");
+			out.println("<br/>Pick a type, ejb singleton bmc: ?type=ejb-sin-bmc-test ?type=ejb-sin-bmc-read ?type=ejb-sin-bmc-write");
 			out.println("<br/>Pick a type, ejb stateless: ?type=ejb-sl-test ?type=ejb-sl-read ?type=ejb-sl-write");
-			out.println("<br/>Pick a type, ejb stateless: ?type=ejb-sf-test ?type=ejb-sf-read ?type=ejb-sf-write");
+			out.println("<br/>Pick a type, ejb stateful: ?type=ejb-sf-test ?type=ejb-sf-read ?type=ejb-sf-write");
 			return;
 		}
 		
